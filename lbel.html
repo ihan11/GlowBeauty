@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de productos L'bel - GlowBeauty. Descubre cosmética elegante y sofisticada L'bel.">
+  <title>L'bel — GlowBeauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><a href="index.html" style="color:white; text-decoration:none;">GlowBeauty ✨</a></h1>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#productos">Productos de temporada</a>
+        <div class="menu-categorias">
+          <button id="btnCategorias" type="button" aria-haspopup="true" aria-expanded="false">Categorías ▼</button>
+          <div class="dropdown" id="dropdownCategorias" role="menu" aria-hidden="true">
+            <a href="natura.html" role="menuitem">Natura</a>
+            <a href="esika.html" role="menuitem">Esika</a>
+            <a href="cyzone.html" role="menuitem">Cyzone</a>
+            <a href="lbel.html" role="menuitem">L'bel</a>
+            <a href="avon.html" role="menuitem">Avon</a>
+          </div>
+        </div>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>L'bel 🌸</h2>
+    <p>Cosmética premium con acabados sofisticados y formulas de alta calidad.</p>
+    <button id="btnVerProductos" type="button">Ver productos L'bel</button>
+  </section>
+  <section class="productos" id="productos">
+    <h3>Productos L'bel destacados</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=1200&auto=format&fit=crop" alt="Labial L'bel" loading="lazy">
+        <div class="card-content">
+          <h4>Labial hidratante L'bel</h4>
+          <p>Color intenso y labios suaves hasta por 8 horas.</p>
+          <div class="precio">$15.490</div>
+          <button class="btn add-to-cart" data-name="Labial hidratante L'bel" data-price="15490">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop" alt="Crema L'bel" loading="lazy">
+        <div class="card-content">
+          <h4>Crema regeneradora L'bel</h4>
+          <p>Hidratación profunda y piel más firme.</p>
+          <div class="precio">$22.990</div>
+          <button class="btn add-to-cart" data-name="Crema regeneradora L'bel" data-price="22990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="Perfume L'bel" loading="lazy">
+        <div class="card-content">
+          <h4>Perfume L'bel</h4>
+          <p>Olor sofisticado con notas florales y almizcladas.</p>
+          <div class="precio">$26.990</div>
+          <button class="btn add-to-cart" data-name="Perfume L'bel" data-price="26990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacto" id="contacto">
+    <h3>Haz tu pedido 💌</h3>
+    <p>Contáctanos por WhatsApp para recibir tus productos L'bel.</p>
+    <a class="btn contacto-btn" href="https://wa.me/56983814763">Contactar ahora</a>
+  </section>
+  <footer>© 2026 GlowBeauty - Todos los derechos reservados</footer>
+  <script src="script.js"></script>
+</body>
+</html>

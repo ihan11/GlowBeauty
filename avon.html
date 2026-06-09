@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de productos Avon - GlowBeauty. Encuentra cuidado corporal, maquillaje y fragancias Avon.">
+  <title>Avon — GlowBeauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><a href="index.html" style="color:white; text-decoration:none;">GlowBeauty ✨</a></h1>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#productos">Productos de temporada</a>
+        <div class="menu-categorias">
+          <button id="btnCategorias" type="button" aria-haspopup="true" aria-expanded="false">Categorías ▼</button>
+          <div class="dropdown" id="dropdownCategorias" role="menu" aria-hidden="true">
+            <a href="natura.html" role="menuitem">Natura</a>
+            <a href="esika.html" role="menuitem">Esika</a>
+            <a href="cyzone.html" role="menuitem">Cyzone</a>
+            <a href="lbel.html" role="menuitem">L'bel</a>
+            <a href="avon.html" role="menuitem">Avon</a>
+          </div>
+        </div>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Avon 💕</h2>
+    <p>Cuida tu piel y estilo con los clásicos y novedades de Avon.</p>
+    <button id="btnVerProductos" type="button">Ver productos Avon</button>
+  </section>
+  <section class="productos" id="productos">
+    <h3>Productos Avon destacados</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1514224186359-036f17f10431?q=80&w=1200&auto=format&fit=crop" alt="Crema Avon" loading="lazy">
+        <div class="card-content">
+          <h4>Crema corporal Avon</h4>
+          <p>Hidratación profunda para piel suave y perfumada.</p>
+          <div class="precio">$11.490</div>
+          <button class="btn add-to-cart" data-name="Crema corporal Avon" data-price="11490">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="Set Avon" loading="lazy">
+        <div class="card-content">
+          <h4>Set de maquillaje Avon</h4>
+          <p>Productos esenciales para un look diario completo.</p>
+          <div class="precio">$14.990</div>
+          <button class="btn add-to-cart" data-name="Set de maquillaje Avon" data-price="14990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop" alt="Perfume Avon" loading="lazy">
+        <div class="card-content">
+          <h4>Perfume Avon</h4>
+          <p>Aroma clásico y femenino para cada momento.</p>
+          <div class="precio">$17.990</div>
+          <button class="btn add-to-cart" data-name="Perfume Avon" data-price="17990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacto" id="contacto">
+    <h3>Haz tu pedido 💌</h3>
+    <p>Escríbenos por WhatsApp para coordinar tu pedido Avon.</p>
+    <a class="btn contacto-btn" href="https://wa.me/56983814763">Contactar ahora</a>
+  </section>
+  <footer>© 2026 GlowBeauty - Todos los derechos reservados</footer>
+  <script src="script.js"></script>
+</body>
+</html>

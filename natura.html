@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de productos Natura - GlowBeauty. Maquillaje, cremas y perfumes Natura.">
+  <title>Natura — GlowBeauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1><a href="index.html" style="color:white; text-decoration:none;">GlowBeauty ✨</a></h1>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="#productos">Productos de temporada</a>
+        <div class="menu-categorias">
+          <button id="btnCategorias" type="button" aria-haspopup="true" aria-expanded="false">Categorías ▼</button>
+          <div class="dropdown" id="dropdownCategorias" role="menu" aria-hidden="true">
+            <a href="natura.html" role="menuitem">Natura</a>
+            <a href="index.html" role="menuitem">Todas</a>
+          </div>
+        </div>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Natura 🌿</h2>
+    <p>Seleccionamos lo mejor de Natura: cuidado natural, cosmética y fragancias.</p>
+    <button id="btnVerProductos" type="button">Ver productos Natura</button>
+  </section>
+
+  <section class="productos" id="productos">
+    <h3>Productos Natura destacados</h3>
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Rutina de cuidado Natura" loading="lazy">
+        <div class="card-content">
+          <h4>Set Cuidado Natural</h4>
+          <p>Limpiador y crema hidratante con ingredientes botánicos.</p>
+          <div class="precio">$16.990</div>
+          <button class="btn add-to-cart" data-name="Set Cuidado Natural" data-price="16990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="Maquillaje Natura" loading="lazy">
+        <div class="card-content">
+          <h4>Base líquida Natura</h4>
+          <p>Acabado natural y larga duración.</p>
+          <div class="precio">$12.990</div>
+          <button class="btn add-to-cart" data-name="Base líquida Natura" data-price="12990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1526312426976-5244f6a3fb2d?q=80&w=1200&auto=format&fit=crop" alt="Perfume Natura" loading="lazy">
+        <div class="card-content">
+          <h4>Perfume Natura</h4>
+          <p>Fragancia fresca con notas florales y cítricas.</p>
+          <div class="precio">$21.990</div>
+          <button class="btn add-to-cart" data-name="Perfume Natura" data-price="21990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <h3>Haz tu pedido 💌</h3>
+    <p>Escríbenos por WhatsApp para cotizar y pedir productos Natura.</p>
+    <a class="btn contacto-btn" href="https://wa.me/56983814763">Contactar ahora</a>
+  </section>
+
+  <footer>© 2026 GlowBeauty - Todos los derechos reservados</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

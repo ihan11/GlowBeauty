@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda online de productos de belleza: maquillaje, cremas y perfumes. Pedidos por WhatsApp.">
 
   <title>GlowBeauty</title>
 
@@ -23,28 +24,28 @@
 
         <a href="#">Inicio</a>
 
-        <a href="#productos">Productos</a>
+        <a href="#productos">Productos de temporada</a>
 
         <!-- MENU CATEGORIAS -->
 
         <div class="menu-categorias">
 
-          <button onclick="toggleCategorias()">
+          <button id="btnCategorias" type="button" aria-haspopup="true" aria-expanded="false">
             Categorías ▼
           </button>
 
-          <div class="dropdown" id="dropdownCategorias">
+          <div class="dropdown" id="dropdownCategorias" role="menu" aria-hidden="true">
 
-           <a href="#"> Natura</a>
+           <a href="natura.html" role="menuitem">Natura</a>
 
-           <a href="#">Esika</a>
-  
-           <a href="#">Cyzone</a>
- 
-           <a href="#"a>L'bel</a>
- 
-           <a href="#">Avon</a
-                             
+           <a href="esika.html" role="menuitem">Esika</a>
+
+           <a href="cyzone.html" role="menuitem">Cyzone</a>
+
+           <a href="lbel.html" role="menuitem">L'bel</a>
+
+           <a href="avon.html" role="menuitem">Avon</a>
+                            
           </div>
 
         </div>
@@ -68,7 +69,7 @@
       con atención personalizada y pedidos rápidos por WhatsApp.
     </p>
 
-    <button onclick="irProductos()">
+    <button id="btnVerProductos" type="button">
       Ver productos
     </button>
 
@@ -86,7 +87,7 @@
 
       <div class="card">
 
-        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="Kit de cremas faciales" loading="lazy">
 
         <div class="card-content">
 
@@ -96,14 +97,10 @@
             Limpieza facial e hidratación para una piel más radiante.
           </p>
 
-          <div class="precio">$14.990</div>
+           <div class="precio">$14.990</div>
 
-          <a class="btn"
-             href="https://wa.me/56983814763">
-
-             Pedir por WhatsApp
-
-          </a>
+           <button class="btn add-to-cart" data-name="Kit cremas" data-price="14990">Agregar al carrito</button>
+           <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
 
         </div>
 
@@ -113,7 +110,7 @@
 
       <div class="card">
 
-        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1200&auto=format&fit=crop">
+        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1200&auto=format&fit=crop" alt="Set de maquillaje" loading="lazy">
 
         <div class="card-content">
 
@@ -123,14 +120,10 @@
             Colores intensos y larga duración para cualquier ocasión.
           </p>
 
-          <div class="precio">$19.990</div>
+           <div class="precio">$19.990</div>
 
-          <a class="btn"
-             href="https://wa.me/56983814763">
-
-             Pedir por WhatsApp
-
-          </a>
+           <button class="btn add-to-cart" data-name="Set de Maquillaje" data-price="19990">Agregar al carrito</button>
+           <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
 
         </div>
 
@@ -140,7 +133,7 @@
 
       <div class="card">
 
-        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop">
+        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop" alt="Perfume floral" loading="lazy">
 
         <div class="card-content">
 
@@ -150,14 +143,10 @@
             Fragancia elegante y duradera para uso diario.
           </p>
 
-          <div class="precio">$24.990</div>
+           <div class="precio">$24.990</div>
 
-          <a class="btn"
-             href="https://wa.me/56983814763">
-
-             Pedir por WhatsApp
-
-          </a>
+           <button class="btn add-to-cart" data-name="Perfume Floral" data-price="24990">Agregar al carrito</button>
+           <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
 
         </div>
 

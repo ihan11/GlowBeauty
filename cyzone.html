@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de productos Cyzone - GlowBeauty. Descubre cosmética joven y divertida Cyzone.">
+  <title>Cyzone — GlowBeauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><a href="index.html" style="color:white; text-decoration:none;">GlowBeauty ✨</a></h1>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#productos">Productos de temporada</a>
+        <div class="menu-categorias">
+          <button id="btnCategorias" type="button" aria-haspopup="true" aria-expanded="false">Categorías ▼</button>
+          <div class="dropdown" id="dropdownCategorias" role="menu" aria-hidden="true">
+            <a href="natura.html" role="menuitem">Natura</a>
+            <a href="esika.html" role="menuitem">Esika</a>
+            <a href="cyzone.html" role="menuitem">Cyzone</a>
+            <a href="lbel.html" role="menuitem">L'bel</a>
+            <a href="avon.html" role="menuitem">Avon</a>
+          </div>
+        </div>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Cyzone 💄</h2>
+    <p>Productos jóvenes, coloridos y divertidos para destacar tu estilo.</p>
+    <button id="btnVerProductos" type="button">Ver productos Cyzone</button>
+  </section>
+  <section class="productos" id="productos">
+    <h3>Productos Cyzone destacados</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop" alt="Labial Cyzone" loading="lazy">
+        <div class="card-content">
+          <h4>Labial Mate Cyzone</h4>
+          <p>Tonos intensos y acabado mate con larga duración.</p>
+          <div class="precio">$9.990</div>
+          <button class="btn add-to-cart" data-name="Labial Mate Cyzone" data-price="9990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="Delineador Cyzone" loading="lazy">
+        <div class="card-content">
+          <h4>Delineador líquido Cyzone</h4>
+          <p>Trazos precisos para ojos definidos y mirada intensa.</p>
+          <div class="precio">$7.490</div>
+          <button class="btn add-to-cart" data-name="Delineador líquido Cyzone" data-price="7490">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5d7?q=80&w=1200&auto=format&fit=crop" alt="Bruma Cyzone" loading="lazy">
+        <div class="card-content">
+          <h4>Bruma refrescante Cyzone</h4>
+          <p>Toque de frescura para el rostro en cualquier momento del día.</p>
+          <div class="precio">$8.790</div>
+          <button class="btn add-to-cart" data-name="Bruma refrescante Cyzone" data-price="8790">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacto" id="contacto">
+    <h3>Haz tu pedido 💌</h3>
+    <p>Envía tu mensaje por WhatsApp y recibe tus productos Cyzone en casa.</p>
+    <a class="btn contacto-btn" href="https://wa.me/56983814763">Contactar ahora</a>
+  </section>
+  <footer>© 2026 GlowBeauty - Todos los derechos reservados</footer>
+  <script src="script.js"></script>
+</body>
+</html>

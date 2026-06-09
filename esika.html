@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de productos Esika - GlowBeauty. Descubre maquillaje y belleza premium Esika.">
+  <title>Esika — GlowBeauty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><a href="index.html" style="color:white; text-decoration:none;">GlowBeauty ✨</a></h1>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#productos">Productos de temporada</a>
+        <div class="menu-categorias">
+          <button id="btnCategorias" type="button" aria-haspopup="true" aria-expanded="false">Categorías ▼</button>
+          <div class="dropdown" id="dropdownCategorias" role="menu" aria-hidden="true">
+            <a href="natura.html" role="menuitem">Natura</a>
+            <a href="esika.html" role="menuitem">Esika</a>
+            <a href="cyzone.html" role="menuitem">Cyzone</a>
+            <a href="lbel.html" role="menuitem">L'bel</a>
+            <a href="avon.html" role="menuitem">Avon</a>
+          </div>
+        </div>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Esika ✨</h2>
+    <p>Descubre lo último en maquillaje y fragancias femeninas con un estilo moderno.</p>
+    <button id="btnVerProductos" type="button">Ver productos Esika</button>
+  </section>
+  <section class="productos" id="productos">
+    <h3>Productos Esika destacados</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop" alt="Base Esika" loading="lazy">
+        <div class="card-content">
+          <h4>Base Perfecta Esika</h4>
+          <p>Textura ligera, cobertura natural y acabado luminoso.</p>
+          <div class="precio">$18.490</div>
+          <button class="btn add-to-cart" data-name="Base Perfecta Esika" data-price="18490">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1200&auto=format&fit=crop" alt="Paleta Esika" loading="lazy">
+        <div class="card-content">
+          <h4>Paleta de Sombras Esika</h4>
+          <p>Colores cálidos y versátiles para el día y la noche.</p>
+          <div class="precio">$13.990</div>
+          <button class="btn add-to-cart" data-name="Paleta de Sombras Esika" data-price="13990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="Perfume Esika" loading="lazy">
+        <div class="card-content">
+          <h4>Perfume Esika</h4>
+          <p>Fragancia sofisticada con notas florales y amaderadas.</p>
+          <div class="precio">$23.990</div>
+          <button class="btn add-to-cart" data-name="Perfume Esika" data-price="23990">Agregar al carrito</button>
+          <a class="btn" href="https://wa.me/56983814763">Pedir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacto" id="contacto">
+    <h3>Haz tu pedido 💌</h3>
+    <p>Envíanos un mensaje por WhatsApp para cotizar tus productos Esika favoritos.</p>
+    <a class="btn contacto-btn" href="https://wa.me/56983814763">Contactar ahora</a>
+  </section>
+  <footer>© 2026 GlowBeauty - Todos los derechos reservados</footer>
+  <script src="script.js"></script>
+</body>
+</html>
